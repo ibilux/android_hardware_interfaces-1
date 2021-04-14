@@ -23,6 +23,7 @@ LOCAL_SHARED_LIBRARIES := \
     libhidltransport.recovery \
     libhardware.recovery \
     libutils.recovery \
+    libfs_mgr \
     android.hardware.boot@1.0.recovery
 LOCAL_STATIC_LIBRARIES := $(PRODUCT_STATIC_BOOT_CONTROL_HAL)
 include $(BUILD_SHARED_LIBRARY)
